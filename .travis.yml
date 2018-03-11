@@ -1,0 +1,21 @@
+sudo: true
+dist: trusty
+language:
+  - c
+
+before_install:
+- sudo apt-get update
+- sudo apt-get -y install build-essential
+- sudo apt-get -y install libelf-dev
+- sudo apt-get -y install wget
+- sudo apt-get -y install unzip
+
+env:
+- version=--default
+- version=--with_ssl
+- version=--with_tls
+- version=--debug
+- version=--test
+
+script:
+- make all

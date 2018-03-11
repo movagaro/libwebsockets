@@ -1,0 +1,90 @@
+[  1%] Building C object CMakeFiles/websockets.dir/lib/misc/base64-decode.c.o
+[  2%] Building C object CMakeFiles/websockets.dir/lib/handshake.c.o
+[  4%] Building C object CMakeFiles/websockets.dir/lib/libwebsockets.c.o
+[  5%] Building C object CMakeFiles/websockets.dir/lib/service.c.o
+[  6%] Building C object CMakeFiles/websockets.dir/lib/pollfd.c.o
+[  8%] Building C object CMakeFiles/websockets.dir/lib/output.c.o
+[  9%] Building C object CMakeFiles/websockets.dir/lib/server/parsers.c.o
+[ 10%] Building C object CMakeFiles/websockets.dir/lib/context.c.o
+[ 12%] Building C object CMakeFiles/websockets.dir/lib/alloc.c.o
+[ 13%] Building C object CMakeFiles/websockets.dir/lib/header.c.o
+[ 14%] Building C object CMakeFiles/websockets.dir/lib/misc/lws-ring.c.o
+[ 16%] Building C object CMakeFiles/websockets.dir/lib/client/client.c.o
+[ 17%] Building C object CMakeFiles/websockets.dir/lib/client/client-handshake.c.o
+[ 18%] Building C object CMakeFiles/websockets.dir/lib/client/client-parser.c.o
+[ 20%] Building C object CMakeFiles/websockets.dir/lib/tls/tls.c.o
+[ 21%] Building C object CMakeFiles/websockets.dir/lib/tls/openssl/ssl.c.o
+[ 22%] Building C object CMakeFiles/websockets.dir/lib/server/ssl-server.c.o
+[ 24%] Building C object CMakeFiles/websockets.dir/lib/tls/openssl/openssl-server.c.o
+[ 25%] Building C object CMakeFiles/websockets.dir/lib/client/ssl-client.c.o
+[ 27%] Building C object CMakeFiles/websockets.dir/lib/tls/openssl/openssl-client.c.o
+[ 28%] Building C object CMakeFiles/websockets.dir/lib/misc/sha-1.c.o
+[ 29%] Building C object CMakeFiles/websockets.dir/lib/plat/lws-plat-unix.c.o
+[ 31%] Building C object CMakeFiles/websockets.dir/lib/server/server.c.o
+[ 32%] Building C object CMakeFiles/websockets.dir/lib/server/lws-spa.c.o
+[ 33%] Building C object CMakeFiles/websockets.dir/lib/server/server-handshake.c.o
+[ 35%] Linking C static library lib/libwebsockets.a
+[ 35%] Built target websockets
+[ 36%] Building C object CMakeFiles/test-fuzxy.dir/test-apps/fuzxy.c.o
+[ 37%] Linking C executable bin/libwebsockets-test-fuzxy
+[ 37%] Built target test-fuzxy
+[ 39%] Building C object CMakeFiles/test-server.dir/test-apps/test-server.c.o
+[ 40%] Building C object CMakeFiles/test-server.dir/test-apps/test-server-http.c.o
+[ 41%] Building C object CMakeFiles/test-server.dir/test-apps/test-server-dumb-increment.c.o
+[ 43%] Linking C executable bin/libwebsockets-test-server
+[ 43%] Built target test-server
+[ 44%] Building C object CMakeFiles/websockets_shared.dir/lib/misc/base64-decode.c.o
+[ 45%] Building C object CMakeFiles/websockets_shared.dir/lib/handshake.c.o
+[ 47%] Building C object CMakeFiles/websockets_shared.dir/lib/libwebsockets.c.o
+[ 48%] Building C object CMakeFiles/websockets_shared.dir/lib/service.c.o
+[ 50%] Building C object CMakeFiles/websockets_shared.dir/lib/pollfd.c.o
+[ 51%] Building C object CMakeFiles/websockets_shared.dir/lib/output.c.o
+[ 52%] Building C object CMakeFiles/websockets_shared.dir/lib/server/parsers.c.o
+[ 54%] Building C object CMakeFiles/websockets_shared.dir/lib/context.c.o
+[ 55%] Building C object CMakeFiles/websockets_shared.dir/lib/alloc.c.o
+[ 56%] Building C object CMakeFiles/websockets_shared.dir/lib/header.c.o
+[ 58%] Building C object CMakeFiles/websockets_shared.dir/lib/misc/lws-ring.c.o
+[ 59%] Building C object CMakeFiles/websockets_shared.dir/lib/client/client.c.o
+[ 60%] Building C object CMakeFiles/websockets_shared.dir/lib/client/client-handshake.c.o
+[ 62%] Building C object CMakeFiles/websockets_shared.dir/lib/client/client-parser.c.o
+[ 63%] Building C object CMakeFiles/websockets_shared.dir/lib/tls/tls.c.o
+[ 64%] Building C object CMakeFiles/websockets_shared.dir/lib/tls/openssl/ssl.c.o
+[ 66%] Building C object CMakeFiles/websockets_shared.dir/lib/server/ssl-server.c.o
+[ 67%] Building C object CMakeFiles/websockets_shared.dir/lib/tls/openssl/openssl-server.c.o
+[ 68%] Building C object CMakeFiles/websockets_shared.dir/lib/client/ssl-client.c.o
+[ 70%] Building C object CMakeFiles/websockets_shared.dir/lib/tls/openssl/openssl-client.c.o
+[ 71%] Building C object CMakeFiles/websockets_shared.dir/lib/misc/sha-1.c.o
+[ 72%] Building C object CMakeFiles/websockets_shared.dir/lib/plat/lws-plat-unix.c.o
+[ 74%] Building C object CMakeFiles/websockets_shared.dir/lib/server/server.c.o
+[ 75%] Building C object CMakeFiles/websockets_shared.dir/lib/server/lws-spa.c.o
+[ 77%] Building C object CMakeFiles/websockets_shared.dir/lib/server/server-handshake.c.o
+[ 78%] Linking C shared library lib/libwebsockets.so
+[ 78%] Built target websockets_shared
+Scanning dependencies of target test-fraggle
+[ 79%] Building C object CMakeFiles/test-fraggle.dir/test-apps/test-fraggle.c.o
+[ 81%] Linking C executable bin/libwebsockets-test-fraggle
+[ 81%] Built target test-fraggle
+Scanning dependencies of target test-ping
+[ 82%] Building C object CMakeFiles/test-ping.dir/test-apps/test-ping.c.o
+[ 83%] Linking C executable bin/libwebsockets-test-ping
+[ 83%] Built target test-ping
+Scanning dependencies of target test-server-extpoll
+[ 85%] Building C object CMakeFiles/test-server-extpoll.dir/test-apps/test-server.c.o
+[ 86%] Building C object CMakeFiles/test-server-extpoll.dir/test-apps/test-server-http.c.o
+[ 87%] Building C object CMakeFiles/test-server-extpoll.dir/test-apps/test-server-dumb-increment.c.o
+[ 89%] Linking C executable bin/libwebsockets-test-server-extpoll
+[ 89%] Built target test-server-extpoll
+Scanning dependencies of target test-echo
+[ 90%] Building C object CMakeFiles/test-echo.dir/test-apps/test-echo.c.o
+[ 91%] Linking C executable bin/libwebsockets-test-echo
+[ 91%] Built target test-echo
+Scanning dependencies of target test-server-pthreads
+[ 93%] Building C object CMakeFiles/test-server-pthreads.dir/test-apps/test-server-pthreads.c.o
+[ 94%] Building C object CMakeFiles/test-server-pthreads.dir/test-apps/test-server-http.c.o
+[ 95%] Building C object CMakeFiles/test-server-pthreads.dir/test-apps/test-server-dumb-increment.c.o
+[ 97%] Linking C executable bin/libwebsockets-test-server-pthreads
+[ 97%] Built target test-server-pthreads
+Scanning dependencies of target test-client
+[ 98%] Building C object CMakeFiles/test-client.dir/test-apps/test-client.c.o
+[100%] Linking C executable bin/libwebsockets-test-client
+[100%] Built target test-client
